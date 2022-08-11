@@ -7,3 +7,18 @@ git add filename
 git commit -m "f1 feature"
 git push
 ```
+Development team raise the pull request from origin/feature/f1 to development branch to merge the changes into the development branch.
+After merging the code azure pipeline will start the build and deploy the changes into the test environment.
+Testing team started test case execution in test environment.
+Then the DevOps team creates a release branch (release/v1.0.1) from the development branch.
+Testing team reported some bugs in newly deployed changes in test environment.
+Dev team checkout (release/v1.0.1) branch locally and do the changes directrly into release branch.
+when the changes pushed into remote release branch then dev team raise the pull request from release branch to development branch.
+After merging the changes into development branch start the deployment from to test environment and point the development branch as a source.
+Testing team started test case execution in test environment.
+If no bugs reported, QA team provide the sign-off.
+After sign-off raise the pull request from release branch (release/v1.0.1) to master branch.
+And create tag after merging into master branch.
+Finally start the deployment into production environment from master branch.
+after the deployment into production environment if any bugs occured create hotfix branch from master and checkout hotfix branch
+fix the changes into hotfix branch and merge the changes into master branch 
