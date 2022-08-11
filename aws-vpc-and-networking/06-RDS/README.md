@@ -40,4 +40,30 @@ Storage Auto Scaling:
 
 ![image](https://user-images.githubusercontent.com/6921037/184113298-abb64e4f-4a4f-40d0-adb1-2cc7f80a11ae.png)
 
+Create RDS:
+
+1) RDS - create Database - Standared create
+2) MYSQL - select version - templates production
+3) set DB instance identifier default value database-1
+4) Master username value=admin
+5) Master password value=admin
+6) DB instance class - Burstable class db.t2.miceo
+7) storage type = SSd(gp2)
+8) Allocated storage (20) GB
+9) Enable auto Scaling
+10) Maxium storage threshold 1000
+11) connectivity select VPC for your RDS
+12) Subnet group
+13) VPC security group
+14) Availabilty zone - no perference
+15) Database port 3305
+16) Database Autentication - password and IAM database
+17) Create database name
+18) Enable automated backup
+19) Backup retention period 
+20) backup windows
+21) Monitoring logs
+22) Enable auto minor version upgrade
+23) Enable database deletion protection
+24) 
 
