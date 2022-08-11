@@ -7,11 +7,11 @@ git add filename
 git commit -m "f1 feature"
 git push
 ```
-4.Development team raise the pull request from origin/feature/f1 to development branch to merge the changes into the development branch.
-5.After merging the code azure pipeline will start the build and deploy the changes into the test environment.
-6.Testing team started test case execution in test environment.
-7.Then the DevOps team creates a release branch (release/v1.0.1) from the development branch.
-8.Testing team reported some bugs in newly deployed changes in test environment.
+4. Development team raise the pull request from origin/feature/f1 to development branch to merge the changes into the development branch.
+5. After merging the code azure pipeline will start the build and deploy the changes into the test environment.
+6. Testing team started test case execution in test environment.
+7. Then the DevOps team creates a release branch (release/v1.0.1) from the development branch.
+8. Testing team reported some bugs in newly deployed changes in test environment.
 Dev team checkout (release/v1.0.1) branch locally and do the changes directrly into release branch.
 when the changes pushed into remote release branch then dev team raise the pull request from release branch to development branch.
 After merging the changes into development branch start the deployment from to test environment and point the development branch as a source.
