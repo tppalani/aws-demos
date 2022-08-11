@@ -15,10 +15,10 @@ git push
 9. Dev team checkout (release/v1.0.1) branch locally and do the changes directrly into release branch.
 10. when the changes pushed into remote release branch then dev team raise the pull request from release branch to development branch.
 11. After merging the changes into development branch start the deployment from to test environment and point the development branch as a source.
-Testing team started test case execution in test environment.
-If no bugs reported, QA team provide the sign-off.
-After sign-off raise the pull request from release branch (release/v1.0.1) to master branch.
-And create tag after merging into master branch.
-Finally start the deployment into production environment from master branch.
-after the deployment into production environment if any bugs occured create hotfix branch from master and checkout hotfix branch
-fix the changes into hotfix branch and merge the changes into master branch 
+12. Testing team started test case execution in test environment.
+13. If no bugs reported, QA team provide the sign-off.
+14. After sign-off raise the pull request from release branch (release/v1.0.1) to master branch.
+15. And create tag after merging into master branch.
+16. Finally start the deployment into production environment from master branch.
+17. after the deployment into production environment if any bugs occured create hotfix branch from master and checkout hotfix branch
+18. fix the changes into hotfix branch and merge the changes into master branch 
