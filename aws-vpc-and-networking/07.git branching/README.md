@@ -12,9 +12,9 @@ git push
 6. Testing team started test case execution in test environment.
 7. Then the DevOps team creates a release branch (release/v1.0.1) from the development branch.
 8. Testing team reported some bugs in newly deployed changes in test environment.
-Dev team checkout (release/v1.0.1) branch locally and do the changes directrly into release branch.
-when the changes pushed into remote release branch then dev team raise the pull request from release branch to development branch.
-After merging the changes into development branch start the deployment from to test environment and point the development branch as a source.
+9. Dev team checkout (release/v1.0.1) branch locally and do the changes directrly into release branch.
+10. when the changes pushed into remote release branch then dev team raise the pull request from release branch to development branch.
+11. After merging the changes into development branch start the deployment from to test environment and point the development branch as a source.
 Testing team started test case execution in test environment.
 If no bugs reported, QA team provide the sign-off.
 After sign-off raise the pull request from release branch (release/v1.0.1) to master branch.
