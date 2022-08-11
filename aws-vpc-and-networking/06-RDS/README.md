@@ -37,3 +37,6 @@ Storage Auto Scaling:
    2) Low-storage lasts at least 5 minutes
    3) 6 hours have passed since last modification
 6) Supports all RDS (MariaDB, MySQL, PostgresSQL, SQL SERVER, Oracle)
+
+![image](https://user-images.githubusercontent.com/6921037/184112741-592b3dbc-fbaa-46c6-91b7-cc90c4a30f65.png)
+
