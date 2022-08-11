@@ -1,6 +1,6 @@
 Detailed Steps:
 
-Advantage RDS
+Setup VPC 1 Advantage RDS
 1) RDS managed services
 2) Automated provisioning, OS patching
 3) Continuous backups and restore to specific timestamp (point in time restore)
